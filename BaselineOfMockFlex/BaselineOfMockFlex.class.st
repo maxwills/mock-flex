@@ -10,5 +10,5 @@ BaselineOfMockFlex >> baseline: spec [
 	<baseline>
 	spec for: #common do: [ 
 		spec package: 'MockFlex'.
-		spec package: 'MockFlex-Tests' ]
+		spec package: 'MockFlex-Tests' with: [ spec requires: #('MockFlex') ]]
 ]
